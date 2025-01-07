@@ -17,7 +17,7 @@ npm install
 
 Run the following command to compile and deploy the contracts
 ```shell
-npx hardhat run ./scripts/deploy.js
+npx hardhat run scripts/deploy.helloworld.js --network pentestnet
 ```
 After deployment the output of the script will be the addresses of the contracts  
 
